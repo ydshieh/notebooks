@@ -45,10 +45,12 @@ The above models and their variations focus on pretraining either the encoder or
 
 <a id='figure-3'></a>
 
+<div align="center">
 | <img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/bert-gpt-bart.JPG" alt="drawing" width="400"/> | 
 |:--:| 
 | Figure 3: The 3 pretraining paradigms for Transformer models [<sup>[4]</sup>](https://arxiv.org/abs/1810.04805) [<sup>[5]</sup>](https://openai.com/blog/language-unsupervised/) [<sup>[6]</sup>](https://arxiv.org/abs/1910.13461)|
-
+</div>
+  
 In 2020, the paper [Leveraging Pre-trained Checkpoints for Sequence Generation Tasks](https://arxiv.org/abs/1907.12461) studied the effectiveness of initializing sequence-to-sequence models with pretrained encoder/decoder checkpoints for sequence generation tasks. It obtained new state-of-the-art results on machine translation, text summarization, etc.
 
 Following this idea, 🤗 [transformers](https://huggingface.co/docs/transformers/index) implements [EncoderDecoderModel](https://huggingface.co/docs/transformers/model_doc/encoderdecoder) that allows users to easily combine almost any 🤗 pretrained encoder (Bert, Robert, etc.) with a 🤗 pretrained decoder (GPT models, decoder from Bart or T5, etc.) to perform fine-tuning on downstream tasks. Instantiate a [EncoderDecoderModel](https://huggingface.co/docs/transformers/model_doc/encoderdecoder) is super easy, and finetune it on a sequence-to-sequence task usually obtains descent results in just a few hours on Google Cloud TPU.
