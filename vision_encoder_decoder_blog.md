@@ -45,11 +45,9 @@ The above models and their variations focus on pretraining either the encoder or
 
 <a id='figure-3'></a>
 
-<center>
 | <img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/bert-gpt-bart.JPG" alt="drawing" width="400"/> | 
 |:--:| 
 | Figure 3: The 3 pretraining paradigms for Transformer models [<sup>[4]</sup>](https://arxiv.org/abs/1810.04805) [<sup>[5]</sup>](https://openai.com/blog/language-unsupervised/) [<sup>[6]</sup>](https://arxiv.org/abs/1910.13461)|
-</center>
   
 In 2020, the paper [Leveraging Pre-trained Checkpoints for Sequence Generation Tasks](https://arxiv.org/abs/1907.12461) studied the effectiveness of initializing sequence-to-sequence models with pretrained encoder/decoder checkpoints for sequence generation tasks. It obtained new state-of-the-art results on machine translation, text summarization, etc.
 
