@@ -246,7 +246,7 @@ image.resize(np.asarray(shape).transpose())
 
 
     
-![png](output_17_1.png)
+![](https://raw.githubusercontent.com/ydshieh/notebooks/master/images/vision_encoder_decoder_outputs/output_17_1.png)
     
 
 
@@ -365,7 +365,7 @@ display(patched_1d.crop(box=(left, upper, right, lower)))
 
 
     
-![png](output_24_0.png)
+![](https://raw.githubusercontent.com/ydshieh/notebooks/master/images/vision_encoder_decoder_outputs/output_24_0.png)
     
 
 
@@ -375,7 +375,7 @@ display(patched_1d.crop(box=(left, upper, right, lower)))
 
 
     
-![png](output_24_2.png)
+![](https://raw.githubusercontent.com/ydshieh/notebooks/master/images/vision_encoder_decoder_outputs/output_24_2.png)
     
 
 
@@ -943,7 +943,7 @@ weighted_image
 
 
     
-![png](output_60_0.png)
+![](https://raw.githubusercontent.com/ydshieh/notebooks/master/images/vision_encoder_decoder_outputs/output_60_0.png)
     
 
 
@@ -954,6 +954,7 @@ import matplotlib.pyplot as plt
 plt.matshow(heatmap)
 ```
 
+![](https://raw.githubusercontent.com/ydshieh/notebooks/master/images/vision_encoder_decoder_outputs/heatmap.png)
 
 ```python
 superimposed_img
@@ -963,7 +964,7 @@ superimposed_img
 
 
     
-![png](output_62_0.png)
+![](https://raw.githubusercontent.com/ydshieh/notebooks/master/images/vision_encoder_decoder_outputs/output_62_0.png)
     
 
 
@@ -990,7 +991,7 @@ weighted_image
 
 
     
-![png](output_64_1.png)
+![](https://raw.githubusercontent.com/ydshieh/notebooks/master/images/vision_encoder_decoder_outputs/output_64_1.png)
     
 
 
