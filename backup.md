@@ -27,17 +27,37 @@ The encoder-decoder architecture was proposed in 2014, when several papers ([Cho
 
 <a id='figure-1'></a>
 
-| <img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/rnn_encoder_decoder.JPG" alt="drawing" width="550"/> | 
-|:--:| 
-| Figure 1: RNN-based encoder-decoder architecture [<sup>[1]</sup>](https://arxiv.org/abs/1409.3215) [<sup>[2]</sup>](https://arxiv.org/abs/1409.0473)<br><br>Left: without attention mechanism &nbsp; \| &nbsp; Right: with attention mechism|
+<div align="center">
+<table>
+<thead><tr>
+<th style="text-align:center"><img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/rnn_encoder_decoder.JPG" alt="drawing" width="550"/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Figure 1: RNN-based encoder-decoder architecture <a href="https://arxiv.org/abs/1409.3215"><sup>[1]</sup></a> <a href="https://arxiv.org/abs/1409.0473"><sup>[2]</sup></a><br><br>Left: without attention mechanism &nbsp; | &nbsp; Right: with attention mechism</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 In 2017, Vaswani et al. published a paper [Attention is all you need](https://arxiv.org/abs/1706.03762) which introduced a new model architecture called `Transformer`. It still consists of an encoder and a decoder, however instead of using RNN/LSTM for the components, they use multi-head self-attention as the building blocks. This innovate attention mechanism becomes the fundamental of the breakthroughs in NLP since then, beyond the NMT tasks.
 
 <a id='figure-2'></a>
 
-| <img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/transformer.JPG" alt="drawing" width="250"/> | 
-|:--:| 
-| Figure 2: Transformer encoder-decoder architecture [<sup>[3]</sup>](https://arxiv.org/abs/1706.03762)|
+<div align="center">
+<table>
+<thead><tr>
+<th style="text-align:center"><img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/transformer.JPG" alt="drawing" width="250"/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Figure 2: Transformer encoder-decoder architecture <a href="https://arxiv.org/abs/1706.03762"><sup>[3]</sup></a></td>
+</tr>
+</tbody>
+</table>
+</div>
 
 Combined with the idea of pretraining and transfer learning (for example, from [ULMFiT](https://arxiv.org/abs/1801.06146)), a golden age of NLP started in 2018-2019 with the release of OpenAI's [GPT](https://openai.com/blog/language-unsupervised/) and [GPT-2](https://openai.com/blog/better-language-models/) models and Google's [BERT](https://arxiv.org/abs/1810.04805) model. It's now common to call them Transformer models, however they are not encoder-decoder architecture as the original Transformer: BERT is encoder-only (originally for text classification) and GPT models are decoder-only (for text auto-completion).
 
@@ -45,10 +65,20 @@ The above models and their variations focus on pretraining either the encoder or
 
 <a id='figure-3'></a>
 
-| <img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/bert-gpt-bart.JPG" alt="drawing" width="400"/> | 
-|:--:| 
-| Figure 3: The 3 pretraining paradigms for Transformer models [<sup>[4]</sup>](https://arxiv.org/abs/1810.04805) [<sup>[5]</sup>](https://openai.com/blog/language-unsupervised/) [<sup>[6]</sup>](https://arxiv.org/abs/1910.13461)|
-  
+<div align="center">
+<table>
+<thead><tr>
+<th style="text-align:center"><img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/bert-gpt-bart.JPG" alt="drawing" width="400"/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Figure 3: The 3 pretraining paradigms for Transformer models <a href="https://arxiv.org/abs/1810.04805"><sup>[4]</sup></a> <a href="https://openai.com/blog/language-unsupervised/"><sup>[5]</sup></a> <a href="https://arxiv.org/abs/1910.13461"><sup>[6]</sup></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
 In 2020, the paper [Leveraging Pre-trained Checkpoints for Sequence Generation Tasks](https://arxiv.org/abs/1907.12461) studied the effectiveness of initializing sequence-to-sequence models with pretrained encoder/decoder checkpoints for sequence generation tasks. It obtained new state-of-the-art results on machine translation, text summarization, etc.
 
 Following this idea, 🤗 [transformers](https://huggingface.co/docs/transformers/index) implements [EncoderDecoderModel](https://huggingface.co/docs/transformers/model_doc/encoderdecoder) that allows users to easily combine almost any 🤗 pretrained encoder (Bert, Robert, etc.) with a 🤗 pretrained decoder (GPT models, decoder from Bart or T5, etc.) to perform fine-tuning on downstream tasks. Instantiate a [EncoderDecoderModel](https://huggingface.co/docs/transformers/model_doc/encoderdecoder) is super easy, and finetune it on a sequence-to-sequence task usually obtains descent results in just a few hours on Google Cloud TPU.
@@ -151,9 +181,19 @@ The obtained sequence of vectors plays the same role as token embeddings in [BER
 
 <a id='figure-4'></a>
 
-| <img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/bert-vs-vit.JPG" alt="drawing" width="600"/> | 
-|:--:| 
-| Figure 4: BERT v.s. ViT |
+<div align="center">
+<table>
+<thead><tr>
+<th style="text-align:center"><img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/bert-vs-vit.JPG" alt="drawing" width="600"/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Figure 4: BERT v.s. ViT</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 <sup>2</sup> This is just the concept. The actual implementation uses convolution layers to perform this computation efficiently.
 
@@ -369,9 +409,19 @@ We have learned the encoder-decoder architecture in NLP and the vision Transform
 
 <a id='figure-5'></a>
 
-| <img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/vision-enc-dec.JPG" alt="drawing" width="800"/> | 
-|:--:| 
-| Figure 5: Vision-Encoder-Decoder architecture |
+<div align="center">
+<table>
+<thead><tr>
+<th style="text-align:center"><img src="https://raw.githubusercontent.com/ydshieh/notebooks/master/images/vision-enc-dec.JPG" alt="drawing" width="800"/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Figure 5: Vision-Encoder-Decoder architecture</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 ### **Vision-Encoder-Decoder in 🤗 transformers**
 
@@ -567,14 +617,6 @@ display(df[:3].style.set_table_styles([{'selector': 'td', 'props': props}, {'sel
     
 
 
-<style type="text/css">
-#T_800ac_ td {
-  border: 2px solid black;
-}
-#T_800ac_ th {
-  border: 2px solid black;
-}
-</style>
 <table id="T_800ac_" class="dataframe">
   <thead>
     <tr>
@@ -659,14 +701,6 @@ display(df[3:].style.set_table_styles([{'selector': 'td', 'props': props}, {'sel
     
 
 
-<style type="text/css">
-#T_5456e_ td {
-  border: 2px solid black;
-}
-#T_5456e_ th {
-  border: 2px solid black;
-}
-</style>
 <table id="T_5456e_" class="dataframe">
   <thead>
     <tr>
