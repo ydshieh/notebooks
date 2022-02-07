@@ -639,51 +639,51 @@ display(df[:3].style.set_table_styles([{'selector': 'td', 'props': props}, {'sel
   <tbody>
     <tr>
       <th id="T_800ac_level0_row0" class="row_heading level0 row0" >label tokens</th>
-      <td id="T_800ac_row0_col0" class="data row0 col0" >A</td>
-      <td id="T_800ac_row0_col1" class="data row0 col1" >Ġcouple</td>
-      <td id="T_800ac_row0_col2" class="data row0 col2" >Ġof</td>
-      <td id="T_800ac_row0_col3" class="data row0 col3" >Ġcats</td>
-      <td id="T_800ac_row0_col4" class="data row0 col4" >Ġlaying</td>
-      <td id="T_800ac_row0_col5" class="data row0 col5" >Ġon</td>
-      <td id="T_800ac_row0_col6" class="data row0 col6" >Ġtop</td>
-      <td id="T_800ac_row0_col7" class="data row0 col7" >Ġof</td>
-      <td id="T_800ac_row0_col8" class="data row0 col8" >Ġa</td>
-      <td id="T_800ac_row0_col9" class="data row0 col9" >Ġpink</td>
-      <td id="T_800ac_row0_col10" class="data row0 col10" >Ġblanket</td>
-      <td id="T_800ac_row0_col11" class="data row0 col11" >.</td>
-      <td id="T_800ac_row0_col12" class="data row0 col12" ><|endoftext|></td>
+      <td id="T_800ac_row0_col0" class="data row0 col0" align="right">A</td>
+      <td id="T_800ac_row0_col1" class="data row0 col1" align="right">Ġcouple</td>
+      <td id="T_800ac_row0_col2" class="data row0 col2" align="right">Ġof</td>
+      <td id="T_800ac_row0_col3" class="data row0 col3" align="right">Ġcats</td>
+      <td id="T_800ac_row0_col4" class="data row0 col4" align="right">Ġlaying</td>
+      <td id="T_800ac_row0_col5" class="data row0 col5" align="right">Ġon</td>
+      <td id="T_800ac_row0_col6" class="data row0 col6" align="right">Ġtop</td>
+      <td id="T_800ac_row0_col7" class="data row0 col7" align="right">Ġof</td>
+      <td id="T_800ac_row0_col8" class="data row0 col8" align="right">Ġa</td>
+      <td id="T_800ac_row0_col9" class="data row0 col9" align="right">Ġpink</td>
+      <td id="T_800ac_row0_col10" class="data row0 col10" align="right">Ġblanket</td>
+      <td id="T_800ac_row0_col11" class="data row0 col11" align="right">.</td>
+      <td id="T_800ac_row0_col12" class="data row0 col12" align="right"><|endoftext|></td>
     </tr>
     <tr>
       <th id="T_800ac_level0_row1" class="row_heading level0 row1" >decoder input tokens</th>
-      <td id="T_800ac_row1_col0" class="data row1 col0" ><|endoftext|></td>
-      <td id="T_800ac_row1_col1" class="data row1 col1" >A</td>
-      <td id="T_800ac_row1_col2" class="data row1 col2" >Ġcouple</td>
-      <td id="T_800ac_row1_col3" class="data row1 col3" >Ġof</td>
-      <td id="T_800ac_row1_col4" class="data row1 col4" >Ġcats</td>
-      <td id="T_800ac_row1_col5" class="data row1 col5" >Ġlaying</td>
-      <td id="T_800ac_row1_col6" class="data row1 col6" >Ġon</td>
-      <td id="T_800ac_row1_col7" class="data row1 col7" >Ġtop</td>
-      <td id="T_800ac_row1_col8" class="data row1 col8" >Ġof</td>
-      <td id="T_800ac_row1_col9" class="data row1 col9" >Ġa</td>
-      <td id="T_800ac_row1_col10" class="data row1 col10" >Ġpink</td>
-      <td id="T_800ac_row1_col11" class="data row1 col11" >Ġblanket</td>
-      <td id="T_800ac_row1_col12" class="data row1 col12" >.</td>
+      <td id="T_800ac_row1_col0" class="data row1 col0" align="right"><|endoftext|></td>
+      <td id="T_800ac_row1_col1" class="data row1 col1" align="right">A</td>
+      <td id="T_800ac_row1_col2" class="data row1 col2" align="right">Ġcouple</td>
+      <td id="T_800ac_row1_col3" class="data row1 col3" align="right">Ġof</td>
+      <td id="T_800ac_row1_col4" class="data row1 col4" align="right">Ġcats</td>
+      <td id="T_800ac_row1_col5" class="data row1 col5" align="right">Ġlaying</td>
+      <td id="T_800ac_row1_col6" class="data row1 col6" align="right">Ġon</td>
+      <td id="T_800ac_row1_col7" class="data row1 col7" align="right">Ġtop</td>
+      <td id="T_800ac_row1_col8" class="data row1 col8" align="right">Ġof</td>
+      <td id="T_800ac_row1_col9" class="data row1 col9" align="right">Ġa</td>
+      <td id="T_800ac_row1_col10" class="data row1 col10" align="right">Ġpink</td>
+      <td id="T_800ac_row1_col11" class="data row1 col11" align="right">Ġblanket</td>
+      <td id="T_800ac_row1_col12" class="data row1 col12" align="right">.</td>
     </tr>
     <tr>
       <th id="T_800ac_level0_row2" class="row_heading level0 row2" >attention mask</th>
-      <td id="T_800ac_row2_col0" class="data row2 col0" >1</td>
-      <td id="T_800ac_row2_col1" class="data row2 col1" >1</td>
-      <td id="T_800ac_row2_col2" class="data row2 col2" >1</td>
-      <td id="T_800ac_row2_col3" class="data row2 col3" >1</td>
-      <td id="T_800ac_row2_col4" class="data row2 col4" >1</td>
-      <td id="T_800ac_row2_col5" class="data row2 col5" >1</td>
-      <td id="T_800ac_row2_col6" class="data row2 col6" >1</td>
-      <td id="T_800ac_row2_col7" class="data row2 col7" >1</td>
-      <td id="T_800ac_row2_col8" class="data row2 col8" >1</td>
-      <td id="T_800ac_row2_col9" class="data row2 col9" >1</td>
-      <td id="T_800ac_row2_col10" class="data row2 col10" >1</td>
-      <td id="T_800ac_row2_col11" class="data row2 col11" >1</td>
-      <td id="T_800ac_row2_col12" class="data row2 col12" >1</td>
+      <td id="T_800ac_row2_col0" class="data row2 col0" align="center">1</td>
+      <td id="T_800ac_row2_col1" class="data row2 col1" align="center">1</td>
+      <td id="T_800ac_row2_col2" class="data row2 col2" align="center">1</td>
+      <td id="T_800ac_row2_col3" class="data row2 col3" align="center">1</td>
+      <td id="T_800ac_row2_col4" class="data row2 col4" align="center">1</td>
+      <td id="T_800ac_row2_col5" class="data row2 col5" align="center">1</td>
+      <td id="T_800ac_row2_col6" class="data row2 col6" align="center">1</td>
+      <td id="T_800ac_row2_col7" class="data row2 col7" align="center">1</td>
+      <td id="T_800ac_row2_col8" class="data row2 col8" align="center">1</td>
+      <td id="T_800ac_row2_col9" class="data row2 col9" align="center">1</td>
+      <td id="T_800ac_row2_col10" class="data row2 col10" align="center">1</td>
+      <td id="T_800ac_row2_col11" class="data row2 col11" align="center">1</td>
+      <td id="T_800ac_row2_col12" class="data row2 col12" align="center">1</td>
     </tr>
   </tbody>
 </table>
@@ -723,51 +723,51 @@ display(df[3:].style.set_table_styles([{'selector': 'td', 'props': props}, {'sel
   <tbody>
     <tr>
       <th id="T_5456e_level0_row0" class="row_heading level0 row0" >label tokens</th>
-      <td id="T_5456e_row0_col0" class="data row0 col0" >There</td>
-      <td id="T_5456e_row0_col1" class="data row0 col1" >Ġare</td>
-      <td id="T_5456e_row0_col2" class="data row0 col2" >Ġtwo</td>
-      <td id="T_5456e_row0_col3" class="data row0 col3" >Ġcats</td>
-      <td id="T_5456e_row0_col4" class="data row0 col4" >Ġlaying</td>
-      <td id="T_5456e_row0_col5" class="data row0 col5" >Ġdown</td>
-      <td id="T_5456e_row0_col6" class="data row0 col6" >Ġwith</td>
-      <td id="T_5456e_row0_col7" class="data row0 col7" >Ġtwo</td>
-      <td id="T_5456e_row0_col8" class="data row0 col8" >Ġrem</td>
-      <td id="T_5456e_row0_col9" class="data row0 col9" >otes</td>
-      <td id="T_5456e_row0_col10" class="data row0 col10" >.</td>
-      <td id="T_5456e_row0_col11" class="data row0 col11" ><|endoftext|></td>
-      <td id="T_5456e_row0_col12" class="data row0 col12" ><|endoftext|></td>
+      <td id="T_5456e_row0_col0" class="data row0 col0" align="right">There</td>
+      <td id="T_5456e_row0_col1" class="data row0 col1" align="right">Ġare</td>
+      <td id="T_5456e_row0_col2" class="data row0 col2" align="right">Ġtwo</td>
+      <td id="T_5456e_row0_col3" class="data row0 col3" align="right">Ġcats</td>
+      <td id="T_5456e_row0_col4" class="data row0 col4" align="right">Ġlaying</td>
+      <td id="T_5456e_row0_col5" class="data row0 col5" align="right">Ġdown</td>
+      <td id="T_5456e_row0_col6" class="data row0 col6" align="right">Ġwith</td>
+      <td id="T_5456e_row0_col7" class="data row0 col7" align="right">Ġtwo</td>
+      <td id="T_5456e_row0_col8" class="data row0 col8" align="right">Ġrem</td>
+      <td id="T_5456e_row0_col9" class="data row0 col9" align="right">otes</td>
+      <td id="T_5456e_row0_col10" class="data row0 col10" align="right">.</td>
+      <td id="T_5456e_row0_col11" class="data row0 col11" align="right"><|endoftext|></td>
+      <td id="T_5456e_row0_col12" class="data row0 col12" align="right"><|endoftext|></td>
     </tr>
     <tr>
       <th id="T_5456e_level0_row1" class="row_heading level0 row1" >decoder input tokens</th>
-      <td id="T_5456e_row1_col0" class="data row1 col0" ><|endoftext|></td>
-      <td id="T_5456e_row1_col1" class="data row1 col1" >There</td>
-      <td id="T_5456e_row1_col2" class="data row1 col2" >Ġare</td>
-      <td id="T_5456e_row1_col3" class="data row1 col3" >Ġtwo</td>
-      <td id="T_5456e_row1_col4" class="data row1 col4" >Ġcats</td>
-      <td id="T_5456e_row1_col5" class="data row1 col5" >Ġlaying</td>
-      <td id="T_5456e_row1_col6" class="data row1 col6" >Ġdown</td>
-      <td id="T_5456e_row1_col7" class="data row1 col7" >Ġwith</td>
-      <td id="T_5456e_row1_col8" class="data row1 col8" >Ġtwo</td>
-      <td id="T_5456e_row1_col9" class="data row1 col9" >Ġrem</td>
-      <td id="T_5456e_row1_col10" class="data row1 col10" >otes</td>
-      <td id="T_5456e_row1_col11" class="data row1 col11" >.</td>
-      <td id="T_5456e_row1_col12" class="data row1 col12" ><|endoftext|></td>
+      <td id="T_5456e_row1_col0" class="data row1 col0" align="right"><|endoftext|></td>
+      <td id="T_5456e_row1_col1" class="data row1 col1" align="right">There</td>
+      <td id="T_5456e_row1_col2" class="data row1 col2" align="right">Ġare</td>
+      <td id="T_5456e_row1_col3" class="data row1 col3" align="right">Ġtwo</td>
+      <td id="T_5456e_row1_col4" class="data row1 col4" align="right">Ġcats</td>
+      <td id="T_5456e_row1_col5" class="data row1 col5" align="right">Ġlaying</td>
+      <td id="T_5456e_row1_col6" class="data row1 col6" align="right">Ġdown</td>
+      <td id="T_5456e_row1_col7" class="data row1 col7" align="right">Ġwith</td>
+      <td id="T_5456e_row1_col8" class="data row1 col8" align="right">Ġtwo</td>
+      <td id="T_5456e_row1_col9" class="data row1 col9" align="right">Ġrem</td>
+      <td id="T_5456e_row1_col10" class="data row1 col10" align="right">otes</td>
+      <td id="T_5456e_row1_col11" class="data row1 col11" align="right">.</td>
+      <td id="T_5456e_row1_col12" class="data row1 col12" align="right"><|endoftext|></td>
     </tr>
     <tr>
       <th id="T_5456e_level0_row2" class="row_heading level0 row2" >attention mask</th>
-      <td id="T_5456e_row2_col0" class="data row2 col0" >1</td>
-      <td id="T_5456e_row2_col1" class="data row2 col1" >1</td>
-      <td id="T_5456e_row2_col2" class="data row2 col2" >1</td>
-      <td id="T_5456e_row2_col3" class="data row2 col3" >1</td>
-      <td id="T_5456e_row2_col4" class="data row2 col4" >1</td>
-      <td id="T_5456e_row2_col5" class="data row2 col5" >1</td>
-      <td id="T_5456e_row2_col6" class="data row2 col6" >1</td>
-      <td id="T_5456e_row2_col7" class="data row2 col7" >1</td>
-      <td id="T_5456e_row2_col8" class="data row2 col8" >1</td>
-      <td id="T_5456e_row2_col9" class="data row2 col9" >1</td>
-      <td id="T_5456e_row2_col10" class="data row2 col10" >1</td>
-      <td id="T_5456e_row2_col11" class="data row2 col11" >1</td>
-      <td id="T_5456e_row2_col12" class="data row2 col12" >0</td>
+      <td id="T_5456e_row2_col0" class="data row2 col0" align="center">1</td>
+      <td id="T_5456e_row2_col1" class="data row2 col1" align="center">1</td>
+      <td id="T_5456e_row2_col2" class="data row2 col2" align="center">1</td>
+      <td id="T_5456e_row2_col3" class="data row2 col3" align="center">1</td>
+      <td id="T_5456e_row2_col4" class="data row2 col4" align="center">1</td>
+      <td id="T_5456e_row2_col5" class="data row2 col5" align="center">1</td>
+      <td id="T_5456e_row2_col6" class="data row2 col6" align="center">1</td>
+      <td id="T_5456e_row2_col7" class="data row2 col7" align="center">1</td>
+      <td id="T_5456e_row2_col8" class="data row2 col8" align="center">1</td>
+      <td id="T_5456e_row2_col9" class="data row2 col9" align="center">1</td>
+      <td id="T_5456e_row2_col10" class="data row2 col10" align="center">1</td>
+      <td id="T_5456e_row2_col11" class="data row2 col11" align="center">1</td>
+      <td id="T_5456e_row2_col12" class="data row2 col12" align="center">0</td>
     </tr>
   </tbody>
 </table>
